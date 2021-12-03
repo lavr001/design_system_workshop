@@ -19,5 +19,6 @@ export { default as MultilineInput } from "./components/MultilineInput";
 export { default as Navigation } from "./components/Navigation";
 export { default as ProductNav } from "./components/ProductNav";
 export { default as Select } from "./components/Select";
+export { default as Separator } from "./components/Separator";
 export { default as SummaryTable } from "./components/SummaryTable";
 export { default as Title } from "./components/Title";
