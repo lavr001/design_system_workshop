@@ -16,6 +16,7 @@ export { default as Container } from "./components/Container";
 export { default as Grid } from "./components/Grid";
 export { default as Icon } from "./components/Icon";
 export { default as MultilineInput } from "./components/MultilineInput";
+export { default as Navigation } from "./components/Navigation";
 export { default as Select } from "./components/Select";
 export { default as SummaryTable } from "./components/SummaryTable";
 export { default as Title } from "./components/Title";
