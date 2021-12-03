@@ -22,3 +22,4 @@ export { default as Select } from "./components/Select";
 export { default as Separator } from "./components/Separator";
 export { default as SummaryTable } from "./components/SummaryTable";
 export { default as Title } from "./components/Title";
+export { default as Toast } from "./components/Toast";
