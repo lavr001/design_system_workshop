@@ -34,7 +34,13 @@ module.exports = {
             return prop.path[0] === "typography";
           },
         },
-        /* Filter and extract color tokens*/
+        {
+          destination: "spacing.js",
+          format: "javascript/es6",
+          filter: function (prop) {
+            return prop.path[0] === "spacing";
+          },
+        },
         {
           destination: "colors.js",
           format: "javascript/es6",
