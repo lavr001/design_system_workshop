@@ -6,24 +6,64 @@
       "fileName": "/home/runner/work/design_system_workshop/design_system_workshop/design-system/src/color.stories.mdx",
       "framework": "react"
     },
+    "Components/Avatar": {
+      "fileName": "/home/runner/work/design_system_workshop/design_system_workshop/design-system/src/components/Avatar/Avatar.stories.mdx",
+      "framework": "react"
+    },
     "Components/Button": {
       "fileName": "/home/runner/work/design_system_workshop/design_system_workshop/design-system/src/components/Button/Button.stories.mdx",
+      "framework": "react"
+    },
+    "Components/Card": {
+      "fileName": "/home/runner/work/design_system_workshop/design_system_workshop/design-system/src/components/Card/Card.stories.mdx",
       "framework": "react"
     },
     "Components/Carousel": {
       "fileName": "/home/runner/work/design_system_workshop/design_system_workshop/design-system/src/components/Carousel/Carousel.stories.mdx",
       "framework": "react"
     },
+    "Components/Container": {
+      "fileName": "/home/runner/work/design_system_workshop/design_system_workshop/design-system/src/components/Container/Container.stories.mdx",
+      "framework": "react"
+    },
+    "Components/Grid": {
+      "fileName": "/home/runner/work/design_system_workshop/design_system_workshop/design-system/src/components/Grid/Grid.stories.mdx",
+      "framework": "react"
+    },
     "Components/Icon": {
       "fileName": "/home/runner/work/design_system_workshop/design_system_workshop/design-system/src/components/Icon/Icon.stories.mdx",
+      "framework": "react"
+    },
+    "Components/MultilineInput": {
+      "fileName": "/home/runner/work/design_system_workshop/design_system_workshop/design-system/src/components/MultilineInput/MultilineInput.stories.mdx",
+      "framework": "react"
+    },
+    "Components/Navigation": {
+      "fileName": "/home/runner/work/design_system_workshop/design_system_workshop/design-system/src/components/Navigation/Navigation.stories.mdx",
+      "framework": "react"
+    },
+    "Components/ProductNav": {
+      "fileName": "/home/runner/work/design_system_workshop/design_system_workshop/design-system/src/components/ProductNav/ProductNav.stories.mdx",
       "framework": "react"
     },
     "Components/Select": {
       "fileName": "/home/runner/work/design_system_workshop/design_system_workshop/design-system/src/components/Select/Select.stories.mdx",
       "framework": "react"
     },
+    "Components/Separator": {
+      "fileName": "/home/runner/work/design_system_workshop/design_system_workshop/design-system/src/components/Separator/Separator.stories.mdx",
+      "framework": "react"
+    },
     "Components/SummaryTable": {
       "fileName": "/home/runner/work/design_system_workshop/design_system_workshop/design-system/src/components/SummaryTable/SummaryTable.stories.mdx",
+      "framework": "react"
+    },
+    "Components/Title": {
+      "fileName": "/home/runner/work/design_system_workshop/design_system_workshop/design-system/src/components/Title/Title.stories.mdx",
+      "framework": "react"
+    },
+    "Components/Toast": {
+      "fileName": "/home/runner/work/design_system_workshop/design_system_workshop/design-system/src/components/Toast/Toast.stories.mdx",
       "framework": "react"
     },
     "Intro": {
@@ -44,6 +84,15 @@
       "parameters": {
         "docsOnly": true,
         "__id": "color-palette--page"
+      }
+    },
+    "components-avatar--default-story": {
+      "id": "components-avatar--default-story",
+      "name": "Default",
+      "kind": "Components/Avatar",
+      "story": "Default",
+      "parameters": {
+        "__id": "components-avatar--default-story"
       }
     },
     "components-button--default-story": {
@@ -109,6 +158,33 @@
         "__id": "components-button--button-with-icon"
       }
     },
+    "components-card--small": {
+      "id": "components-card--small",
+      "name": "Small",
+      "kind": "Components/Card",
+      "story": "Small",
+      "parameters": {
+        "__id": "components-card--small"
+      }
+    },
+    "components-card--medium": {
+      "id": "components-card--medium",
+      "name": "Medium",
+      "kind": "Components/Card",
+      "story": "Medium",
+      "parameters": {
+        "__id": "components-card--medium"
+      }
+    },
+    "components-card--big": {
+      "id": "components-card--big",
+      "name": "Big",
+      "kind": "Components/Card",
+      "story": "Big",
+      "parameters": {
+        "__id": "components-card--big"
+      }
+    },
     "components-carousel--default-story": {
       "id": "components-carousel--default-story",
       "name": "Default",
@@ -116,6 +192,42 @@
       "story": "Default",
       "parameters": {
         "__id": "components-carousel--default-story"
+      }
+    },
+    "components-container--default-story": {
+      "id": "components-container--default-story",
+      "name": "Default",
+      "kind": "Components/Container",
+      "story": "Default",
+      "parameters": {
+        "__id": "components-container--default-story"
+      }
+    },
+    "components-container--with-without-paddings": {
+      "id": "components-container--with-without-paddings",
+      "name": "With/Without paddings",
+      "kind": "Components/Container",
+      "story": "With/Without paddings",
+      "parameters": {
+        "__id": "components-container--with-without-paddings"
+      }
+    },
+    "components-container--with-background-color": {
+      "id": "components-container--with-background-color",
+      "name": "With background color",
+      "kind": "Components/Container",
+      "story": "With background color",
+      "parameters": {
+        "__id": "components-container--with-background-color"
+      }
+    },
+    "components-grid--default-story": {
+      "id": "components-grid--default-story",
+      "name": "Default",
+      "kind": "Components/Grid",
+      "story": "Default",
+      "parameters": {
+        "__id": "components-grid--default-story"
       }
     },
     "components-icon--all": {
@@ -145,6 +257,51 @@
         "__id": "components-icon--colors"
       }
     },
+    "components-multilineinput--default-story": {
+      "id": "components-multilineinput--default-story",
+      "name": "Default",
+      "kind": "Components/MultilineInput",
+      "story": "Default",
+      "parameters": {
+        "__id": "components-multilineinput--default-story"
+      }
+    },
+    "components-navigation--default-story": {
+      "id": "components-navigation--default-story",
+      "name": "Default",
+      "kind": "Components/Navigation",
+      "story": "Default",
+      "parameters": {
+        "__id": "components-navigation--default-story"
+      }
+    },
+    "components-navigation--item-page": {
+      "id": "components-navigation--item-page",
+      "name": "Item page",
+      "kind": "Components/Navigation",
+      "story": "Item page",
+      "parameters": {
+        "__id": "components-navigation--item-page"
+      }
+    },
+    "components-navigation--checkout-page": {
+      "id": "components-navigation--checkout-page",
+      "name": "Checkout Page",
+      "kind": "Components/Navigation",
+      "story": "Checkout Page",
+      "parameters": {
+        "__id": "components-navigation--checkout-page"
+      }
+    },
+    "components-productnav--default-story": {
+      "id": "components-productnav--default-story",
+      "name": "Default",
+      "kind": "Components/ProductNav",
+      "story": "Default",
+      "parameters": {
+        "__id": "components-productnav--default-story"
+      }
+    },
     "components-select--default-story": {
       "id": "components-select--default-story",
       "name": "Default",
@@ -163,6 +320,15 @@
         "__id": "components-select--with-default-text"
       }
     },
+    "components-separator--default-story": {
+      "id": "components-separator--default-story",
+      "name": "Default",
+      "kind": "Components/Separator",
+      "story": "Default",
+      "parameters": {
+        "__id": "components-separator--default-story"
+      }
+    },
     "components-summarytable--default-story": {
       "id": "components-summarytable--default-story",
       "name": "Default",
@@ -170,6 +336,24 @@
       "story": "Default",
       "parameters": {
         "__id": "components-summarytable--default-story"
+      }
+    },
+    "components-title--default-story": {
+      "id": "components-title--default-story",
+      "name": "Default",
+      "kind": "Components/Title",
+      "story": "Default",
+      "parameters": {
+        "__id": "components-title--default-story"
+      }
+    },
+    "components-toast--default-story": {
+      "id": "components-toast--default-story",
+      "name": "Default",
+      "kind": "Components/Toast",
+      "story": "Default",
+      "parameters": {
+        "__id": "components-toast--default-story"
       }
     },
     "intro--page": {
