@@ -14,5 +14,6 @@ export { default as Card } from "./components/Card";
 export { default as Carousel } from "./components/Carousel";
 export { default as Container } from "./components/Container";
 export { default as Icon } from "./components/Icon";
+export { default as Grid } from "./components/Grid";
 export { default as Select } from "./components/Select";
 export { default as SummaryTable } from "./components/SummaryTable";
