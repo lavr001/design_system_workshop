@@ -3,7 +3,7 @@
  * It's being updated automatically by add-component script
  * Don't edit it directly, your chages will be overwritten.
  */
-import * as spacing from "./dist/spacing";
+
 export { default as GlobalStyle } from "./global.js";
 export { colors, typography, spacing } from "./tokens";
 

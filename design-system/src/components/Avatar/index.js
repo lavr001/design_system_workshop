@@ -1,4 +1,5 @@
 import { string } from "prop-types";
+import { spacing } from "../../tokens";
 import React from "react";
 import styled from "styled-components";
 
@@ -9,8 +10,8 @@ import styled from "styled-components";
 const Avatar = ({ src, ...props }) => <StyledAvatar src={src} {...props} />;
 
 const StyledAvatar = styled.img`
-  width: 48px;
-  height: 48px;
+  width: ${spacing.spacemd.top};
+  height: ${spacing.spacemd.top};
   border-radius: 16px;
 `;
 
